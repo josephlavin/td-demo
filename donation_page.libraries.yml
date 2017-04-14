@@ -1,0 +1,9 @@
+custom_checkout:
+  version: 1.x
+  css:
+    theme:
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.6/vue.js: { type: external }
+    https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.3.1/vue-resource.min.js: { type: external }
+    https://checkout.stripe.com/checkout.js: { type: external }
+    assets/js/custom_checkout.js: {}

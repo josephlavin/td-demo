@@ -1,0 +1,22 @@
+{
+  "name": "josephlavin/ts",
+  "description": "ThinkShout Test Module",
+  "type": "drupal-module",
+  "authors": [
+    {
+      "name": "Joseph Lavin",
+      "homepage": "https://www.josephlavin.com",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/josephlavin/ts"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/drupal": "^8.3.0",
+    "stripe/stripe-php": "^4.7",
+    "symfony/http-foundation": "^3.2"
+  }
+}

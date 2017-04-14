@@ -1,0 +1,6 @@
+name: ThinkShout Donation Test
+description: Create a demo donation page integrated with Stripe.
+package: Custom
+
+type: module
+core: 8.x

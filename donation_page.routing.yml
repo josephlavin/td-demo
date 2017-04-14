@@ -1,0 +1,16 @@
+donation_page.content:
+  path: '/donate'
+  defaults:
+    _form: '\Drupal\donation_page\Forms\DonateForm'
+    _title: 'Donate'
+  requirements:
+    _permission: 'access content'
+
+donation_page.api:
+  path: '/api/donate.json'
+  defaults:
+    _controller: '\Drupal\donation_page\Controllers\DonationApiController::insert'
+    _title: 'Donate Api'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'
